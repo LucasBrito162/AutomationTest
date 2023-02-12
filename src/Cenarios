@@ -1,0 +1,22 @@
+Cenário: Entrando para pagina Register
+
+dado Ao Entrar Na Pagina Home
+e Clicar no Botao Skip Sing In
+quando
+entao Redireciona Para Pagina Register
+
+
+Cenário: Entrando para Pagina de Register pelo Botão Enter
+
+dado Ao Entrar Na Pagina Home
+e Clicar no Botao Enter
+quando
+entao Redireciona Para Pagina Register
+
+
+Cenário: Entrando para Pagina de Logar
+
+dado Ao Entrar Na Pagina Home
+e Clicar no Botao Sign
+quando 
+entao Redireciona Para Pagina de Logar

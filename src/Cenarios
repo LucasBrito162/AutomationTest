@@ -20,3 +20,13 @@ dado Ao Entrar Na Pagina Home
 e Clicar no Botao Sign
 quando 
 entao Redireciona Para Pagina de Logar
+
+
+Cenário: Realizando Registro com Campo Obrigatório.
+dado Ao Entrar Na Pagina de Registro
+e Colocar Nome Completo
+e colocar email
+e colocar genero
+e colocar um país
+quando Clicar no Botão enviar
+entao Redireciona Para Pagina de Logar
